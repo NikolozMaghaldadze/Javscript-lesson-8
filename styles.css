@@ -1,0 +1,71 @@
+body{
+    background-color: brown;
+    opacity: 50;
+}
+
+.image-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.header-tag{
+    width: auto;
+    height: 50px;
+    color:#000;
+    background-color: aqua;
+    opacity: 90%;
+    margin: auto 0;
+    font-size: 40px;
+}
+
+.previous{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-size: 30px;
+    color: aqua;
+    background-color: #000;
+    border-radius: 50% ;
+    cursor: pointer;
+}
+.next{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    font-size: 30px;
+    color: aqua;
+    background-color: #000;
+    border-radius: 50% ;
+    cursor: pointer;
+}
+
+.dotsWrap{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.childDots{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.active{
+    background-color: aqua;
+}
