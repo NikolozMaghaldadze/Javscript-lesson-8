@@ -1,3 +1,5 @@
+// slider box
+
 let array = [
     {
         id:1,
